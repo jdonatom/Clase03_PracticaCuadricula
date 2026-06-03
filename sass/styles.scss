@@ -1,5 +1,27 @@
-$colorMain: #3498db;
+body{
+  background-color: aqua;
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cellBlack{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left;
+}
 
-body {
-  background-color: $colorMain;
+.cellWhite{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
